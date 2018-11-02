@@ -12,7 +12,7 @@ namespace blockchain {
     function _Block(x) { return x; }
     //% block="add block %x to blockchain"
     function addblock(x: block) {
-        blocksvalues.push(_repr(x));
+        blocksvalues.push(x);
     }
     //% block="repr %x"
     function _repr(x: block) {
