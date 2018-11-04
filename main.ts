@@ -3,7 +3,7 @@ enum block {
     one,
     //% block="spend"
     neg
-}
+};
 block[] blocksvalues = [];
 //% width="100" color=#00FFFF icon="C"
 namespace blockchain {
